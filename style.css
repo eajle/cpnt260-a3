@@ -1,0 +1,50 @@
+header {background-color: #ffc8ba;
+}
+
+p {justify-content:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items:flex-start;
+}
+
+nav ul {padding-right: 0%;}
+nav ul li {list-style: none;}
+
+nav ul a { display: block;
+padding: 0.5em;
+text-decoration: none;
+text-align: center;
+color: #495998;}
+
+nav ul {display: flex;
+    justify-content: flex-end;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+nav ul a:hover { background-color: #495998;
+color: #fff;}
+
+nav ul a:active {background-color: indigo;
+    color: white;}
+
+main { display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 150vh;
+  size-adjust: 50%;
+  }
+main {
+  background-image:url(sad\ monke.png);
+  background-size:50%;
+  background-size: no-repeat;
+  background-position: center; 
+}
+footer {position: fixed;
+bottom: 0%;
+display: flex;
+background-color: #495998;
+font-size: smaller;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+align-self: center;
+justify-self: center;}
+
