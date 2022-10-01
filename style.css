@@ -26,14 +26,13 @@ nav ul a:active {background-color: indigo;
     color: white;}
 
 main { display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
   height: 150vh;
   size-adjust: 50%;
   }
 main {
   background-image:url(sad\ monke.png);
-  background-size:50%;
+  background-size:100%;
   background-size: no-repeat;
   background-position: center; 
 }
@@ -44,7 +43,5 @@ background-color: #495998;
 font-size: smaller;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
-align-self: center;
-justify-self: center;}
+main h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
